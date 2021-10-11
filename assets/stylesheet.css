@@ -7,6 +7,7 @@
 
 body {
     color: darkslategrey;
+    background-color: rgb(188, 195, 202);
 }
 
 header {
@@ -20,15 +21,29 @@ header h1 {
     color: whitesmoke;
     margin: 0;
     display: inline;
+   position: relative;
 }
 header nav ul li {
     display: inline;
 }
 header nav ul li a {
     margin: 0 30px;
+    align-content: center;
     float: right;
     font-weight: lighter;
     font-size: smaller;
     text-decoration: none;
     color: whitesmoke;
+}
+.hero {
+    position: relative;
+    background-size: auto;
+}
+.hero h3 {
+    float: right;
+    margin-top: 150px;
+    margin-right: 30px;
+    background-color:whitesmoke;
+   border-style: solid;
+   border-spacing: 2px;
 }
