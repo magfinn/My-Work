@@ -12,7 +12,7 @@
   <!-- Header/ Navigation -->
 <header>
     <h1>Maggie Finnegan</h1>
-    <nav>
+    <nav class="flex-row">
       <ul>
         <li>
           <a href="#about_me">About Me</a>
@@ -31,11 +31,14 @@
 </header>
 
 <!--About Me Section-->
-<section class="section_box" id="about_me">
-    <div class="section_title">
+<section class="flex-row" id="about_me">
+    <div class="flex-column">
         <h2>About Me</h2>
     </div>
     <div class="content_box">
+        <div class="headshot">
+            <img src="/assets/images/download.jpeg" alt="headshot">
+        </div>
         <p>
             Enter an About Me Description.
         </p>
@@ -43,8 +46,8 @@
 </section>
 
 <!--My Work Section-->
-<section class="section_box" id="my_work">
-    <div class="section_title">
+<section class="flex-row" id="my_work">
+    <div class="flex-column">
         <h2>Work</h2>
     </div>
     <div class="content_box">
@@ -58,7 +61,7 @@
             <box>
                 <h3>Project 3</h3>
             </box>
-            <box>                    
+            <box>              
                 <h3>Project 4</h3>
             </box>
             <box>
@@ -69,11 +72,12 @@
 </section>
 
 <!--Contact Me Section-->
-<section class="section_box" id="contact_me">
-    <div class="section_title">
+<section class="flex-row" id="contact_me">
+    <div class="flex-column">
         <h2>Contact Me</h2>
     </div>
     <div class="content_box">
+        <nav class="flex-row">
         <ul>
             <li>
               <tel> 831.238.1256</tel>
@@ -87,7 +91,8 @@
             <li>
               <a href="#LinkedIn">LinkedIn</a>
             </li>
-            </ul>
+        </ul>
+    </nav>
     </div>
 </section>
 

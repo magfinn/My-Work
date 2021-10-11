@@ -21,13 +21,12 @@ header {
 
 header h1 {
     font-weight: bold;
-    font-size: larger;
+    font-size: 4vw;
     color: whitesmoke;
     margin: 0;
 }
 
 header nav ul {
-    margin: 7px 0;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -38,48 +37,52 @@ header nav ul {
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: smaller;
+    font-size: 1.55vw;
     text-decoration: none;
     color: whitesmoke;
+    justify-content: space-between;
 }
 /* Main Content Sections */
 
 /*Containers for sections about me, work and contact me */
-.section_box {
+.flex-row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+    margin: 1.5%;
 }
+/* Title of each section */
 
-/* Titles of each section */
-
-.section_title h2 {
-    font-size: 32px;
-    font-weight: bold;
+.flex-column {
+    margin: 2%;
+    padding-bottom: 50px;
+    width: 20%;
+    border-right: 2px solid whitesmoke;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    /*add border*/
+    justify-content: space-between;
 }
+
+.section_title h2{
+    font-size: 3vw;
+    font-weight: bold;
        
 /* Content of each section */
 .content_box {
    display: flex;
-   justify-content: space-around;
+   justify-content: left;
    flex-wrap: wrap;
-   align-items: center;
+   width: 80%;
+   margin: 1.5%;
 }
 
 /*add highlighted work design */
 /*add other projects design*/
 
 /* Contact Me Section */
-.content_box ul {
+
+.content_box ul li {
     list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-}
-.content_box ul li a{
     justify-content: space-between;
 }
