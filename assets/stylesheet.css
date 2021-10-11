@@ -30,6 +30,9 @@ header nav ul {
     margin: 7px 0;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header nav ul li a {
@@ -43,7 +46,10 @@ header nav ul li a {
 
 /*Containers for sections about me, work and contact me */
 .section_box {
-    margin: 20px 20px 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Titles of each section */
@@ -51,14 +57,17 @@ header nav ul li a {
 .section_title h2 {
     font-size: 32px;
     font-weight: bold;
-    text-align: left;
+    display: flex;
+    align-items: center;
     /*add border*/
 }
        
 /* Content of each section */
 .content_box {
-    text-align: right;
-    position: relative;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: center;
 }
 
 /*add highlighted work design */
@@ -67,4 +76,10 @@ header nav ul li a {
 /* Contact Me Section */
 .content_box ul {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.content_box ul li a{
+    justify-content: space-between;
 }
