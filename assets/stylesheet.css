@@ -10,6 +10,7 @@ body {
     background-color: rgb(188, 195, 202);
 }
 
+/* Navigation */
 header {
     padding: 20px 35px;
     background-color: lightslategray;
@@ -22,6 +23,7 @@ header h1 {
     margin: 0;
     display: inline;
    position: relative;
+   text-align: center;
 }
 header nav ul li {
     display: inline;
@@ -35,15 +37,32 @@ header nav ul li a {
     text-decoration: none;
     color: whitesmoke;
 }
-.hero {
-    position: relative;
-    background-size: auto;
+/* Main Content Sections */
+
+/*Containers for sections about me, work and contact me */
+.section_box {
+    margin: 20px 20px 20px 20px;
 }
-.hero h3 {
-    float: right;
-    margin-top: 150px;
-    margin-right: 30px;
-    background-color:whitesmoke;
-   border-style: solid;
-   border-spacing: 2px;
+
+/* Titles of each section */
+
+.section_title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+    /*add border*/
+}
+       
+/* Content of each section */
+.content_box {
+    text-align: right;
+    position: relative;
+}
+
+/*add highlighted work design */
+/*add other projects design*/
+
+/* Contact Me Section */
+.content_box ul {
+    list-style: none;
 }
