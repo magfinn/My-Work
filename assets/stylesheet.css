@@ -26,63 +26,132 @@ header h1 {
     margin: 0;
 }
 
+header a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
 header nav ul {
-    list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-decoration: none;
-    color: whitesmoke;
-    justify-content: space-between;
 }
-/* Main Content Sections */
+/*end Navigation*/
 
-/*Containers for sections about me, work and contact me */
-.flex-row {
+/*Footer*/
+footer {
+    background: slateblue;
+    padding: 40px 35px;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 1.5%;
+    width: 100%;
 }
-/* Title of each section */
+/*end Footer*/
 
-.flex-column {
-    margin: 2%;
-    padding-bottom: 50px;
-    width: 20%;
+/*section titles*/
+.section-title {
+    font-size: large;
     border-right: 2px solid whitesmoke;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.primary-border {
+    border-color: whitesmoke;
+}
+
+.secondary-border {
+    border-color: blue;
+}
+
+/*About Me*/
+.intro p {
+    line-height: 1.7;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* My work */
+
+.work {
+    background-color: lightgrey;
+}
+
+.flex-row {
+    margin: 1.5%
+    padding-bottom: 50px;
+    width: 80%;
+    border-right: 1px solid whitesmoke;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
-.section_title h2{
-    font-size: 3vw;
-    font-weight: bold;
+.flex-row h2 {
+    flex: 1 30%;
+
+}
        
 /* Content of each section */
-.content_box {
-   display: flex;
-   justify-content: left;
-   flex-wrap: wrap;
-   width: 80%;
-   margin: 1.5%;
+.row-info {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    flex: 2 70%;
+}
+.row-img {
+    flex: 1 12%;
+    margin-right: 20px;
+    max-width: 100%;
 }
 
-/*add highlighted work design */
+.image1 {
+    flex: 2 20%;
+    max-width: 100%;
+}
+
+.projects {
+    flex 1 12%;
+    max-width: 100%;
+}
+
+.row-text {
+    flex: 12;
+}
+
+/* My Work/Projects */
+
+.highlighted_work a { 
+    border-style: solid 2px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: fit-content;
+}
 /*add other projects design*/
 
 /* Contact Me Section */
 
-.content_box ul li {
+.content-box ul {
     list-style: none;
     justify-content: space-between;
+    ;
 }

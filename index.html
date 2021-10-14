@@ -12,7 +12,7 @@
   <!-- Header/ Navigation -->
 <header>
     <h1>Maggie Finnegan</h1>
-    <nav class="flex-row">
+    <nav>
       <ul>
         <li>
           <a href="#about_me">About Me</a>
@@ -30,55 +30,51 @@
     </nav>
 </header>
 
+
 <!--About Me Section-->
-<section class="flex-row" id="about_me">
-    <div class="flex-column">
-        <h2>About Me</h2>
+  <section id="about_me" class="intro">
+    <div class="flex-row">
+    <h2 class= "section-title primary-border">
+      About Me</h2>
     </div>
-    <div class="content_box">
-        <div class="headshot">
-            <img src="/assets/images/download.jpeg" alt="headshot">
-        </div>
+    <div class="flex-row">
+      <div class ="row-img">
+        <img src="/assets/images/download.svg" alt="headshot"/>
+      </div>
+      <div class="row-text">
         <p>
-            Enter an About Me Description.
+          Enter an About Me Description.
         </p>
+      </div>
     </div>
-</section>
+  </section>
 
 <!--My Work Section-->
-<section class="flex-row" id="my_work">
-    <div class="flex-column">
-        <h2>Work</h2>
+<section id ="my_work" class="work">
+  <div class="flex-row">
+        <h2 class="section-title secondary-border">
+          My Work
+        </h2>
+  </div>
+  <div class="work">
+    <div class="img1">
+        <img src="./assets/images/15015201-d5fd18091a99ac22afb13e175f682d17.png" alt=""/>
     </div>
-    <div class="content_box">
-        <div class="highlighted_work">
-            <h3>Project 1</h3>
-        </div>
-        <div class="other_projects"></div>
-            <box>
-                <h3>Project 3</h3>
-            </box>
-            <box>
-                <h3>Project 3</h3>
-            </box>
-            <box>              
-                <h3>Project 4</h3>
-            </box>
-            <box>
-                <h3>Project 5</h3>
-            </box>
-        </div>
+    <div class="projects">
+        <img src="./assets/images/15015201-d5fd18091a99ac22afb13e175f682d17.png" alt=""/>
+        <img src="./assets/images/15015201-d5fd18091a99ac22afb13e175f682d17.png" alt=""/>
+        <img src="./assets/images/15015201-d5fd18091a99ac22afb13e175f682d17.png" alt=""/>
+        <img src="./assets/images/15015201-d5fd18091a99ac22afb13e175f682d17.png" alt=""/>
     </div>
+  </div>
 </section>
 
 <!--Contact Me Section-->
-<section class="flex-row" id="contact_me">
-    <div class="flex-column">
+<div class="flex-row" id="contact_me">
         <h2>Contact Me</h2>
-    </div>
-    <div class="content_box">
-        <nav class="flex-row">
-        <ul>
+    <div class="row-info">
+      <nav>
+          <ul>
             <li>
               <tel> 831.238.1256</tel>
             </li>
@@ -92,9 +88,10 @@
               <a href="#LinkedIn">LinkedIn</a>
             </li>
         </ul>
-    </nav>
+      </nav>
     </div>
-</section>
+</div>
+
 
 </body>
 
