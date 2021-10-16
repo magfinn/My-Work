@@ -136,16 +136,18 @@ header {
 
 header h1 {
     font-weight: bold;
+<<<<<<< HEAD
     font-size: 48pt;
+=======
+    font-size: 4vw;
+>>>>>>> parent of e72a0eb (merge flexbox containers to main)
     color: whitesmoke;
     margin: 0;
-    text-align: start;
 }
 
 header a {
     text-decoration: none;
     color: whitesmoke;
-    font-size: 2vw;
 }
 
 header nav {
@@ -175,7 +177,7 @@ header nav ul li a {
     margin: 2% 5% 2% 5%;
     padding: 0%;
 }
-/* three main sections*/
+
 .container-box section {
     margin: 1%;
 } 
@@ -197,17 +199,32 @@ header nav ul li a {
 .contact {
     justify-content: center;
 }
+.section-box div   {
+    margin: 5%;
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: nowrap;
+}
 
-/* section title */
 .section-box h2 {
+<<<<<<< HEAD
 flex-basis: 25%;
 display: flex;
 align-items: center;
 justify-content: flex-start;
 font-size: 48px;
+=======
+font-size: xx-large;
+flex-basis: 30%;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+>>>>>>> parent of e72a0eb (merge flexbox containers to main)
 }
-/*Content within section */
+
+
 .content-box {
+<<<<<<< HEAD
     flex-basis: 75%;
     display: flex; 
     margin-left: 2%;
@@ -246,6 +263,21 @@ font-size: 48px;
     flex-basis: 70%;
     flex-wrap: wrap;
     justify-content: center;
+=======
+    flex-basis: 70%;
+    display: flex;
+    
+}
+
+.projects {
+    flex-basis: 70%;
+    display: flex;
+}
+
+.contact {
+    flex-basis: 70%;
+    display: flex;
+>>>>>>> parent of e72a0eb (merge flexbox containers to main)
 }
 
 .projects a {
@@ -254,6 +286,7 @@ font-size: 48px;
 }
 .projects__img__highlighted {
     background-image: url(./images/download.jpeg);
+<<<<<<< HEAD
     background-size: cover;
     display: flex;
     height: 300px;
@@ -267,6 +300,18 @@ font-size: 48px;
     display: inline-flex;
     background-size: cover;
     margin: 2%;
+=======
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-basis: 100%;
+}
+
+.projects__img {
+    height: 100px;
+    width: 100px;
+>>>>>>> parent of e72a0eb (merge flexbox containers to main)
 }
 
 .image2 {
@@ -278,6 +323,7 @@ font-size: 48px;
 }
 
 .image4 {
+<<<<<<< HEAD
     background-image: url(./images/download.jpeg);
 }
 
@@ -298,4 +344,7 @@ font-size: 48px;
     flex: auto;
     display: inline-flex;
     margin-bottom: 3%;
+=======
+        background-image: url(./images/download.jpeg);
+>>>>>>> parent of e72a0eb (merge flexbox containers to main)
 }
