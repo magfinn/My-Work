@@ -48,6 +48,7 @@
         align-items: center;
     }  
 }
+
 /* media query for tablets and smaller*/
 @media screen and (max-width: 768px) {
     header {
@@ -88,6 +89,7 @@
         height: 100px;
     }
 }
+
 /* media query for mobile phones and smaller */
 @media screen and (max-width: 575px) {
     .container-box {
@@ -113,11 +115,7 @@
         align-content: center;
         text-align: center;
     }
-    }
-
-
 }
-
 
 body {
     color: darkslategrey;
@@ -136,11 +134,7 @@ header {
 
 header h1 {
     font-weight: bold;
-<<<<<<< HEAD
     font-size: 48pt;
-=======
-    font-size: 4vw;
->>>>>>> parent of e72a0eb (merge flexbox containers to main)
     color: whitesmoke;
     margin: 0;
 }
@@ -207,24 +201,15 @@ header nav ul li a {
 }
 
 .section-box h2 {
-<<<<<<< HEAD
 flex-basis: 25%;
 display: flex;
 align-items: center;
 justify-content: flex-start;
 font-size: 48px;
-=======
-font-size: xx-large;
-flex-basis: 30%;
-display: flex;
-align-items: center;
-justify-content: flex-end;
->>>>>>> parent of e72a0eb (merge flexbox containers to main)
 }
 
 
 .content-box {
-<<<<<<< HEAD
     flex-basis: 75%;
     display: flex; 
     margin-left: 2%;
@@ -263,21 +248,6 @@ justify-content: flex-end;
     flex-basis: 70%;
     flex-wrap: wrap;
     justify-content: center;
-=======
-    flex-basis: 70%;
-    display: flex;
-    
-}
-
-.projects {
-    flex-basis: 70%;
-    display: flex;
-}
-
-.contact {
-    flex-basis: 70%;
-    display: flex;
->>>>>>> parent of e72a0eb (merge flexbox containers to main)
 }
 
 .projects a {
@@ -286,7 +256,6 @@ justify-content: flex-end;
 }
 .projects__img__highlighted {
     background-image: url(./images/download.jpeg);
-<<<<<<< HEAD
     background-size: cover;
     display: flex;
     height: 300px;
@@ -300,18 +269,6 @@ justify-content: flex-end;
     display: inline-flex;
     background-size: cover;
     margin: 2%;
-=======
-    height: auto;
-    width: 100%;
-    background-size: cover;
-    display: flex;
-    flex-basis: 100%;
-}
-
-.projects__img {
-    height: 100px;
-    width: 100px;
->>>>>>> parent of e72a0eb (merge flexbox containers to main)
 }
 
 .image2 {
@@ -323,7 +280,6 @@ justify-content: flex-end;
 }
 
 .image4 {
-<<<<<<< HEAD
     background-image: url(./images/download.jpeg);
 }
 
@@ -344,7 +300,4 @@ justify-content: flex-end;
     flex: auto;
     display: inline-flex;
     margin-bottom: 3%;
-=======
-        background-image: url(./images/download.jpeg);
->>>>>>> parent of e72a0eb (merge flexbox containers to main)
 }
