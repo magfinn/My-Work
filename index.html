@@ -24,7 +24,13 @@
           <a href="#contact_me">Contact Me</a>
         </li>
         <li>
-          <a href="#Resume">Resume</a>
+          <a href="#Resume" class="resume" onclick="myFunction()">Resume
+          </a>
+          <script>
+            function myFunction() {
+              alert ("Resume Coming Soon!");
+            }
+          </script>
         </li>
       </ul>
     </nav>
@@ -36,10 +42,15 @@
 <!--About Me Section-->
   <section id="about_me" class="section-box">
       <h2>About Me</h2> 
-    <div class="content-box">
-      <img src="./assets/images/F_178.JPG" class="headshot"></img>
+    <div class="content-box .about_me__content">
+      <img src="./assets/images/IMG_1797.JPG" class="headshot"></img>
 
-    <p>Description About Me  Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit doloribus tempore beatae repudiandae, at dolorem excepturi explicabo ducimus quos iure velit consequuntur accusamus natus aspernatur labore doloremque molestiae minus cumque!</p>
+    <p class="about1">Mother of two, lover of outdoor adventures, and current student of UC Davis Coding Bootcamp. 
+    </p>
+    <p>I have spent the last 10 years working for nonprofits serving homeless, low-income and at-risk populations in Sacramento and the Bay Area. In nonprofits, you often wear many hats. 5 years ago my attention turned to tech when I "inherited" a role as Salesforce Administrator. I spent the next year getting the system up and running and have continued working on and improving it ever since. 
+      <br>
+      <br>I have experienced a disconnect that can take place in non-profit organizations between the technology that is available, and the time and expertise needed to utilize these tools to their full capacity. </br></br>
+      I am motivated to help bridge this gap for organizations making a difference in the community - providing the technical support they need to continue their hard and much needed work.</p>
   </div>
 </section>
 
@@ -47,10 +58,18 @@
 <section id ="my_work" class="section-box">
     <h2>My Work</h2>
   <div class="projects">
-    <a href="https://github.com/magfinn/Refactor-for-Horiseon-Home-Page" class="projects__img__highlighted"></a>
-    <a href="https://github.com/magfinn/run-buddy" class="projects__img image2"></a>
-    <a href="https://github.com/magfinn/Randomized-Password-Application" class="projects__img image3"></a>
-    <a href="https://github.com/magfinn/Robot_gladiators" class="projects__img image4"></a>
+    <a href="https://magfinn.github.io/Refactor-for-Horiseon-Home-Page/" class="projects__img__highlighted">
+      <span class="project-titles"> Page Accessibility Refractor</span></a>
+    <a href="https://magfinn.github.io/run-buddy/" class="projects__img image2">
+      <span class="project-titles">Run Buddy Mock-Up Design</span>
+    </a>
+    <a href="#" class="projects__img image3">
+      <span class="project-titles">Javascript Randomized Password Application</span>
+      <span class="project-future">COMING SOON!</span>
+    </a>
+    <a href="https://magfinn.github.io/Robot_gladiators/" class="projects__img image4">
+      <span class="project-titles"> JS Robot Gladiators Game</span>
+    </a>
   </div>
 </section>
 

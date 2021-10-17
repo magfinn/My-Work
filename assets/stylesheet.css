@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: darkslategray;
+    color:rgb(79, 115, 142);
 }
 
 /* media query for smaller desktops*/
@@ -118,14 +118,12 @@
 }
 /*end media queries*/
 
-body {
-    background-color: rgba(47, 79, 79,0.3);
-}
+body 
 
 /* Navigation */
 header {
     padding: 20px 30px;
-    background-color:darkslategray;
+    background-color:rgba(33, 71, 97,0.8);
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -152,7 +150,9 @@ header a:hover {
 header nav {
     margin: 7px 0;
 }
+.Resume:hover {
 
+}
 header nav ul {
     display: flex;
     flex-flow: row wrap;
@@ -228,27 +228,35 @@ h2 {
     height: auto;
     width: 15vw;
     margin-right: 3%;
-    align-self: flex-start;
+    align-self: center;
     box-shadow: 2px 2px 5px darkslategray;
     border-top-left-radius: 10px 20px;
     border-top-right-radius: 10px 20px;
     border-bottom-left-radius: 10px 20px;
     border-bottom-right-radius: 10px 20px;
 }
+img:hover {
+    opacity: 0.7;
+}
+.about1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16pt;
+    margin: 3%;
+}
+
 .about_me__content p {
     margin: 3%;
-    text-align: flex-start;
-    font-size: 16pt;
-    align-self: flex-end;
+    text-align: center;
 }
 
 .about_me__content {
     width: 75%;
     margin: 3%;
-    display: inline-flex;
-    flex-flow: row wrap;
-    flex-wrap: nowrap;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
 }
 
 /* My Work Section */
@@ -260,19 +268,26 @@ h2 {
 }
 
 .projects a {
-    margin: 2%;
+    display: flex;
+    margin: 1%;
     justify-content: space-between;
     box-shadow: 3px 5px 3px darkslategray;
     border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+.projects a:hover {
+    opacity: 0.7;
 }
 .projects__img__highlighted {
-    background-image: url(./images/download.jpeg);
+    background-image: url(./images/15015201-d5fd18091a99ac22afb13e175f682d17.png);
     background-size: cover;
     display: flex;
     height: 300px;
     width: 500px;
     flex: 1 1 70%;
-    justify-items: center;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .projects__img {
@@ -281,20 +296,42 @@ h2 {
     display: inline-flex;
     background-size: cover;
     flex: 2 1 30%;
-    align-content: center;
-    justify-self: center;
+    align-items: flex-end;
+    justify-content: center;
+}
+.project-titles {
+    align-content: flex-start;
+    color: whitesmoke;
+    background-color: rgba(47, 79, 79,0.6);
+    text-decoration: none;
+    font-size: 16pt;
+    background-image: cover;
+    margin: 5%;
+    align-self: flex-start;
+}
+.project-titles:hover {
+    background-color: darkslategray;
+    opacity: 1.0;
+}
+
+.project-future {
+    background-color: rgb(47, 79, 79);
+    color: whitesmoke;
+    font-size: 24pt;
+    font-weight: bolder;
 }
 
 .image2 {
-    background-image: url(./images/download.jpeg);
+    background-image: url(./images/Run\ Buddy.png);
+    background-size: cover;
 }
 
 .image3 {
-    background-image: url(./images/download.jpeg);
+    background-image: url(./images/password_generator.jpeg);
 }
 
 .image4 {
-    background-image: url(./images/download.jpeg);
+    background-image: url(./images/various-color-future-cyborg-warriors-soldiers-futuristic-armor-alien-army-robot_1441-3008.jpeg);
 }
 
 /* Contact Me Section */
