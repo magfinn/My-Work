@@ -150,9 +150,7 @@ header a:hover {
 header nav {
     margin: 7px 0;
 }
-.Resume:hover {
 
-}
 header nav ul {
     display: flex;
     flex-flow: row wrap;
@@ -327,11 +325,11 @@ img:hover {
 }
 
 .image3 {
-    background-image: url(./images/password_generator.jpeg);
+    background-image: url(./images/Password\ Generat.png);
 }
 
 .image4 {
-    background-image: url(./images/various-color-future-cyborg-warriors-soldiers-futuristic-armor-alien-army-robot_1441-3008.jpeg);
+    background-image: url(./images/Pencil-It-In-preview.png);
 }
 
 /* Contact Me Section */
