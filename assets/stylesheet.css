@@ -262,7 +262,7 @@ img:hover {
 .projects {
     flex-basis: 75%;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .projects a {
@@ -278,7 +278,7 @@ img:hover {
     opacity: 0.7;
 }
 .projects__img__highlighted {
-    background-image: url(./images/15015201-d5fd18091a99ac22afb13e175f682d17.png);
+    background-image: url(./images/Destination-Unknown-preview.png);
     background-size: cover;
     display: flex;
     height: 300px;
@@ -298,14 +298,16 @@ img:hover {
     justify-content: center;
 }
 .project-titles {
-    align-content: flex-start;
+    align-items: flex-end;
+    justify-content: flex-end;
     color: whitesmoke;
     background-color: rgba(47, 79, 79,0.6);
     text-decoration: none;
     font-size: 16pt;
     background-image: cover;
     margin: 5%;
-    align-self: flex-start;
+    border-radius: 40px;
+    padding: 5px;
 }
 .project-titles:hover {
     background-color: darkslategray;
